@@ -1,0 +1,63 @@
+# NVMCP Configuration Example
+# Copy this file to .nvmcp and fill in your values
+
+# Organization & Identity
+ORG_ID=your-org-id
+USER_ID=your-user-id
+TEAM_ID=your-team-id
+
+# API Configuration
+API_BASE_URL=https://api.nvmcp.com
+API_VERSION=v1
+API_TIMEOUT=30000
+
+# Access Keys & Authentication
+NVMCP_ACCESS_TOKEN=nvmcp_your_access_token_here
+GITHUB_TOKEN=ghp_your_github_personal_access_token
+OPENAI_API_KEY=sk-your_openai_api_key_here
+ANTHROPIC_API_KEY=sk-ant-your_anthropic_api_key_here
+
+# Registry Configuration
+PRIMARY_REGISTRY=https://registry.nvmcp.com
+BACKUP_REGISTRY=https://backup.nvmcp.com
+ENTERPRISE_REGISTRY=https://enterprise.your-company.com/registry
+ENTERPRISE_TOKEN=your_enterprise_registry_token
+
+# Project Configuration
+PROJECT_NAME=my-nvmcp-project
+PROJECT_PATH=./data
+CONFIG_PATH=./.nvmcp
+TEMPLATES_PATH=./templates
+
+# Feature Flags
+ENABLE_TELEMETRY=true
+ENABLE_ANALYTICS=false
+ENABLE_FEDERATION=false
+ENABLE_CLOUD_SYNC=false
+
+# Environment Specific
+NODE_ENV=development
+LOG_LEVEL=info
+DEBUG=false
+
+# Networking
+HTTP_PROXY=
+HTTPS_PROXY=
+NO_PROXY=localhost,127.0.0.1
+
+# Registry Authentication
+NPM_TOKEN=npm_your_npm_token_here
+REGISTRY_AUTH_TOKEN=your_registry_auth_token
+
+# Cloud Provider Settings (Optional)
+AWS_ACCESS_KEY_ID=your_aws_access_key
+AWS_SECRET_ACCESS_KEY=your_aws_secret_key
+AWS_REGION=us-east-1
+
+# Discord/Slack Integration (Optional)
+DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/your/webhook
+SLACK_WEBHOOK_URL=https://hooks.slack.com/services/your/webhook
+
+# Monitoring & Analytics (Optional)
+SENTRY_DSN=your_sentry_dsn_here
+ANALYTICS_ID=your_analytics_id 

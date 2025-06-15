@@ -1,0 +1,90 @@
+{
+  "name": "@nvmcp/core",
+  "version": "0.1.0-alpha",
+  "description": "NVMCP Core - Essential commands and MCP server management",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "nvmcp": "./bin/nvmcp.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./schemas": {
+      "import": "./dist/schemas/index.js",
+      "types": "./dist/schemas/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsx watch src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest --watch",
+    "test:ui": "vitest --ui",
+    "lint": "eslint src --ext .ts,.tsx --report-unused-disable-directives --max-warnings 0",
+    "format": "prettier --write src",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "cli-table3": "^0.6.5",
+    "execa": "^9.6.0",
+    "fast-glob": "^3.3.3",
+    "node-fetch": "^3.3.2",
+    "ora": "^8.2.0",
+    "prompts": "^2.4.2",
+    "semver": "^7.7.2",
+    "yaml": "^2.8.0",
+    "yargs": "^18.0.0",
+    "zod": "^3.25.64"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "@types/prompts": "^2.4.9",
+    "@types/semver": "^7.7.0",
+    "@types/yargs": "^17.0.33",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.3"
+  },
+  "peerDependencies": {
+    "zod": "^3.25.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "cli",
+    "core",
+    "commands",
+    "configuration",
+    "discovery",
+    "nvmcp"
+  ],
+  "author": "NVMCP Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:adirbenyossef/-nvmcp.git",
+    "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/adirbenyossef/-nvmcp/issues"
+  },
+  "homepage": "https://nvmcp.com/docs/packages/core",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "README.md"
+  ]
+}

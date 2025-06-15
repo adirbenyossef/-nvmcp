@@ -1,0 +1,23 @@
+{
+  "id": "snapshot-production-1749899809524",
+  "environment": "production",
+  "createdAt": "2025-06-14T11:16:49.524Z",
+  "modules": [
+    {
+      "id": "@team/auth-mcp@1.0.0",
+      "version": "1.0.0",
+      "commitHash": "abc123def456",
+      "artifacts": {
+        "bucket": "mcp-federation-artifacts",
+        "key": "@team/auth-mcp/abc123def456/bundle.js",
+        "cdnUrl": "https://mcp-federation-cdn.com/auth-mcp@1.0.0/remote-entry.js"
+      }
+    }
+  ],
+  "metadata": {
+    "nodeVersion": "v20.19.2",
+    "platform": "darwin",
+    "cliVersion": "0.1.0",
+    "totalModules": 1
+  }
+}

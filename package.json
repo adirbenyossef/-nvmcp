@@ -1,0 +1,91 @@
+{
+  "name": "nvmcp",
+  "version": "0.1.0-alpha",
+  "description": "NVMCP CLI - The developer-first CLI for Model Context Protocol (MCP) server management",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.12.1",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "test": "turbo test",
+    "test:watch": "turbo test:watch",
+    "test:coverage": "turbo test --coverage",
+    "test:ui": "turbo run test:ui",
+    "lint": "turbo lint",
+    "format": "turbo format",
+    "typecheck": "turbo typecheck",
+    "clean": "turbo clean && rm -rf node_modules/.cache",
+    "build:clean": "pnpm clean && turbo build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "publish-packages": "pnpm build && changeset publish",
+    "dev:core": "turbo dev --filter=@nvmcp/core",
+    "dev:store": "turbo dev --filter=@nvmcp/store",
+    "dev:federation": "turbo dev --filter=@nvmcp/federation",
+    "dev:cloud": "turbo dev --filter=@nvmcp/cloud",
+    "build:core": "turbo build --filter=@nvmcp/core",
+    "build:store": "turbo build --filter=@nvmcp/store",
+    "build:federation": "turbo build --filter=@nvmcp/federation",
+    "build:cloud": "turbo build --filter=@nvmcp/cloud",
+    "test:core": "turbo test --filter=@nvmcp/core",
+    "test:store": "turbo test --filter=@nvmcp/store",
+    "test:federation": "turbo test --filter=@nvmcp/federation",
+    "test:cloud": "turbo test --filter=@nvmcp/cloud"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.5.1",
+    "@changesets/cli": "^2.29.4",
+    "@types/node": "^24.0.1",
+    "@typescript-eslint/eslint-plugin": "^8.34.0",
+    "@typescript-eslint/parser": "^8.34.0",
+    "@vitest/coverage-v8": "^3.2.3",
+    "@vitest/ui": "^3.2.3",
+    "eslint": "^9.29.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.1",
+    "prettier": "^3.5.3",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "turbo": "^2.5.4",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.3",
+    "zod": "^3.25.64"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "cli",
+    "context",
+    "protocol",
+    "workspace",
+    "development",
+    "tools",
+    "nvmcp",
+    "monorepo",
+    "pnpm",
+    "turbo",
+    "vite",
+    "zod",
+    "typescript"
+  ],
+  "author": "NVMCP Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:adirbenyossef/-nvmcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adirbenyossef/-nvmcp/issues"
+  },
+  "homepage": "https://nvmcp.com",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
+}
