@@ -1,5 +1,6 @@
-# NVMCP Configuration Example
+# π NVMCP Configuration Example
 # Copy this file to .nvmcp and fill in your values
+# The π-precision CLI for Model Context Protocol
 
 # Organization & Identity
 ORG_ID=your-org-id

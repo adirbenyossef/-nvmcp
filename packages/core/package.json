@@ -1,7 +1,7 @@
 {
   "name": "@nvmcp/core",
   "version": "0.1.0-alpha",
-  "description": "NVMCP Core - Essential commands and MCP server management",
+  "description": "π NVMCP Core - Essential commands and MCP server management",
   "type": "module",
   "main": "./dist/index.js",
   "bin": {

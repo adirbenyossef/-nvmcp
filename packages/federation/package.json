@@ -1,7 +1,7 @@
 {
   "name": "@nvmcp/federation",
   "version": "0.1.0-alpha",
-  "description": "NVMCP Federation - Enterprise scaling and module federation",
+  "description": "π NVMCP Federation - Enterprise scaling and module federation",
   "type": "module",
   "main": "./dist/index.js",
   "exports": {

@@ -1,7 +1,7 @@
-# NVMCP CLI - Complete Command Reference
+# π NVMCP CLI - Complete Command Reference
 
 **Version:** 0.1.0-alpha  
-**Built for developers, by developers** 🚀
+**π nvmcp - Built for developers, by developers** 🚀
 
 This is the complete reference for all NVMCP CLI commands. For quick start guides and tutorials, see the [main README](README.md).
 
@@ -811,4 +811,4 @@ nvmcp install package --verbose
 
 ---
 
-**NVMCP CLI v0.1.0-alpha** - Built with ❤️ by developers, for developers 
+**π NVMCP CLI v0.1.0-alpha** - Built with ❤️ by developers, for developers 

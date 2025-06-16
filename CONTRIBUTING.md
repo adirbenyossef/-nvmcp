@@ -1,6 +1,6 @@
-# Contributing to NVMCP CLI
+# Contributing to π NVMCP CLI
 
-We welcome contributions from the community! This guide will help you get started with contributing to the NVMCP CLI project.
+We welcome contributions from the community! This guide will help you get started with contributing to the π NVMCP CLI project.
 
 ## 📋 Table of Contents
 
@@ -520,6 +520,6 @@ By contributing to NVMCP CLI, you agree that your contributions will be licensed
 
 ---
 
-**Thank you for contributing to NVMCP CLI!** 🎉
+**Thank you for contributing to π NVMCP CLI!** 🎉
 
 Your contributions help make MCP management better for everyone in the community. 

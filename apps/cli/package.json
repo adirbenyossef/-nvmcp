@@ -1,7 +1,7 @@
 {
   "name": "nvmcp",
   "version": "0.1.0-alpha",
-  "description": "NVMCP CLI - The developer-first CLI for Model Context Protocol (MCP) server management",
+  "description": "π NVMCP CLI - The developer-first CLI for Model Context Protocol (MCP) server management",
   "type": "module",
   "main": "./dist/index.js",
   "bin": {

@@ -1,8 +1,10 @@
-# NVMCP CLI
+# π NVMCP CLI
 
 <div align="center">
 
-![NVMCP CLI](https://img.shields.io/badge/NVMCP-CLI-blue?style=for-the-badge&logo=terminal)
+**π nvmcp** - *The π-precision CLI for Model Context Protocol*
+
+![NVMCP CLI](https://img.shields.io/badge/π%20NVMCP-CLI-blue?style=for-the-badge&logo=terminal)
 [![Version](https://img.shields.io/badge/version-0.1.0--alpha-orange?style=for-the-badge)](https://www.npmjs.com/settings/nvmcp/packages)
 [![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen?style=for-the-badge&logo=node.js)](https://nodejs.org)
@@ -844,6 +846,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 [⭐ Star us on GitHub](https://github.com/adirbenyossef/-nvmcp) • [💬 Join our Discord](https://discord.gg/BqmstAet) • [📖 Read the Docs](https://nvmcp.com/docs)
 
-**NVMCP CLI v0.1.0-alpha** - *Early adopters welcome! Help us shape the future of MCP tooling.* 🚀
+**π NVMCP CLI v0.1.0-alpha** - *Early adopters welcome! Help us shape the future of MCP tooling.* 🚀
 
 </div> 

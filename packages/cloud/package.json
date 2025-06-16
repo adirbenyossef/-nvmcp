@@ -1,7 +1,7 @@
 {
   "name": "@nvmcp/cloud",
   "version": "0.1.0-alpha",
-  "description": "NVMCP Cloud - Team collaboration and cloud synchronization",
+  "description": "π NVMCP Cloud - Team collaboration and cloud synchronization",
   "type": "module",
   "main": "./dist/index.js",
   "exports": {

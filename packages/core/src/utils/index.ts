@@ -16,6 +16,9 @@ export * from './fs-utils.js';
 // UI utilities
 export * from './ui-simple.js';
 
+// Logo and branding
+export * from './logo.js';
+
 // Configuration utilities
 export * from './nvmcp-config-types.js';
 export * from './mcp-server-config.js';

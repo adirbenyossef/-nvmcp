@@ -1,7 +1,7 @@
 /**
- * Create command arguments schema
+ * π NVMCP Create command arguments schema
  * @fileoverview Validation schema for create command arguments
- * @author NVMCP Contributors
+ * @author π NVMCP Contributors
  * @since 0.1.0
  */
 

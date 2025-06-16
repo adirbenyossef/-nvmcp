@@ -1,16 +1,26 @@
 #!/usr/bin/env node
 
 /**
- * @fileoverview Main CLI entry point for NVMCP
- * @description Command-line interface for the NVMCP toolkit
+ * π NVMCP CLI - Main Entry Point
+ * @fileoverview Main CLI entry point for π NVMCP
+ * @description Command-line interface for the π NVMCP toolkit
+ * @author π NVMCP Contributors
+ * @since 0.1.0-alpha
  */
+
+import { displayBanner, getVersionInfo, getWelcomeMessage } from '@nvmcp/core';
 
 /**
  * Main CLI application function
  */
 async function main(): Promise<void> {
-  console.log('NVMCP CLI - Coming Soon!');
-  console.log('Version: 0.1.0-alpha');
+  displayBanner();
+  console.log('');
+  console.log(getWelcomeMessage());
+  console.log(getVersionInfo());
+  console.log('');
+  console.log('🚀 CLI functionality coming soon!');
+  console.log('💡 Use π nvmcp --help for more information');
 }
 
 // Only run if this is the main module

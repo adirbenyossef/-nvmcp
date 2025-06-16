@@ -40,14 +40,14 @@ This workspace is set up for MCP (Model Context Protocol) development:
 ### Adding MCP Packages
 
 ```bash
-# Add core MCP functionality
-nvmcp add @mcp/core
+# Add core MCP functionality using π NVMCP
+π nvmcp add @mcp/core
 
 # Add database support
-nvmcp add @mcp/database
+π nvmcp add @mcp/database
 
 # Add testing utilities
-nvmcp add @mcp/testing --save-dev
+π nvmcp add @mcp/testing --save-dev
 ```
 
 ### MCP Components
@@ -60,7 +60,7 @@ nvmcp add @mcp/testing --save-dev
 ## 📚 Documentation
 
 - [MCP Protocol](https://modelcontextprotocol.io)
-- [nvmcp Documentation](https://nvmcp.dev/docs)
+- [π NVMCP Documentation](https://nvmcp.dev/docs)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/)
 
 ## 🤝 Contributing
